@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trustiot"
+version = "0.1.0"
+authors = [
+  { name="Kushagra Agrawal", email="kushagra.agrawal@ieee.org" },
+  { name="Polat Goktas", email="polat.goktas@sabanciuniv.edu"}.
+  { name="Oishani Banarjee", email="oishanibanerjee09@gmail.com"}
+]
+description = "A simulation framework for task allocation in edge computing environments."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["iot", "edge-computing", "fog-computing", "task-allocation", "simulation", "game-theory", "trust-management"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "requests",
+    "click",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/afrilab/Trust-IoT"
+"Bug Tracker" = "https://github.com/afrilab/Trust-IoT/issues"
+"Documentation" = "https://github.com/afrilab/Trust-IoT/blob/main/README.md"
+
+[project.scripts]
+trustiot = "trustiot.cli:cli"

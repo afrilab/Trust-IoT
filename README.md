@@ -139,7 +139,7 @@ If you use TrustIoT in your research, please cite the following paper:
 ```bibtex
 @article{arxiv,
   title={Trust-Aware Game-Theoretic Allocation for Secure and Efficient IoT-Edge Systems},
-  author={Kushagra Agrawal and Polat Goktas and Oishani Banarjee},
+  author={Kushagra Agrawal, Oishani Banarjee and Polat Goktas},
   journal={arXiv preprint},
   year={2025}
 }
